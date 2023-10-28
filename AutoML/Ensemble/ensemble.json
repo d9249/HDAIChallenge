@@ -1,0 +1,36 @@
+{
+    "name": "Ensemble",
+    "ml_task": "regression",
+    "optimize_metric": "mae",
+    "selected_models": [
+        {
+            "model": "30_CatBoost",
+            "repeat": 5.0
+        },
+        {
+            "model": "47_Xgboost",
+            "repeat": 3.0
+        },
+        {
+            "model": "61_CatBoost",
+            "repeat": 51.0
+        },
+        {
+            "model": "62_Xgboost",
+            "repeat": 8.0
+        },
+        {
+            "model": "64_LightGBM",
+            "repeat": 5.0
+        },
+        {
+            "model": "66_LightGBM",
+            "repeat": 5.0
+        }
+    ],
+    "predictions_fname": "Ensemble/predictions_ensemble.csv",
+    "metric_name": "mae",
+    "final_loss": 33.555580824172516,
+    "train_time": 28.5232515335083,
+    "is_stacked": false
+}
