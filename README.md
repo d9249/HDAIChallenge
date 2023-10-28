@@ -1,10 +1,10 @@
 # HD 현대 AI Challenge
 
-학습 코드는 train_preliminary.py이며, 
+학습 코드는 `train_preliminary.py`이며, 
 
-train weight & train model는 AutoML_1에 저장되어있으며, 학습 과정에 대한 결과와 리포트 또한 작성되어 있습니다.
+train weight & train model는 `AutoML_1`에 저장되어있으며, 학습 과정에 대한 결과와 리포트 또한 작성되어 있습니다.
 
-prediction_preliminary.py을 실행하면 예측 복원이 가능합니다.
+`prediction_preliminary.py`을 실행하면 예측 복원이 가능합니다.
 
 [대회 링크](https://dacon.io/competitions/official/236158/overview/description)
 
