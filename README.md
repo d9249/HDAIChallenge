@@ -12,7 +12,9 @@ weight는 AutoML_1 폴더를 통해 저장하였고, prediction_preliminary.py�
 
 [예선 결과 링크](https://dacon.io/competitions/official/236158/leaderboard)
 
-[실험 환경](https://github.com/d9249/HDAIChallenge/blob/main/environment_info.txt)
+## 실험 환경
+
+> environment_info.txt
 
 ```
 Operating System: Linux-5.15.0-83-generic-x86_64-with-debian-buster-sid
@@ -28,13 +30,11 @@ Distributor ID: Ubuntu
 Description: Ubuntu 18.04.6 LTS
 Release: 18.04
 Codename: bionic
-
-Operating System: Linux-5.15.0-83-generic-x86_64-with-debian-buster-sid
-
-Python Version: 3.7.13
 ```
 
-[설치된 패키지](https://github.com/d9249/HDAIChallenge/blob/main/requirements.txt)
+## 설치된 패키지
+
+> requirements.txt
 
 ```
 alembic==1.12.0
