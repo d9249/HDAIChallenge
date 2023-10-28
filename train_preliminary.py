@@ -6,7 +6,7 @@ import numpy as np
 import bisect
 from tqdm import tqdm
 from sklearn.metrics import mean_absolute_error
-from sklearn.preprocessing import LabelEncoder, MinMaxScaler, StandardScaler
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from supervised.automl import AutoML
 
 train = pd.read_csv('./data/train.csv').drop(columns=['SAMPLE_ID'])
