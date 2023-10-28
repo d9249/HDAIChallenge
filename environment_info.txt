@@ -1,0 +1,148 @@
+Operating System: Linux-5.15.0-83-generic-x86_64-with-debian-buster-sid
+
+Python Version: 3.7.13
+
+Hardware Information:
+H/W path        Device   Class          Description
+===================================================
+                         system         Computer
+/0                       bus            Motherboard
+/0/0                     memory         125GiB System memory
+/0/1                     processor      12th Gen Intel(R) Core(TM) i9-12900K
+/0/100                   bridge         Intel Corporation
+/0/100/1                 bridge         Intel Corporation
+/0/100/1/0               display        NVIDIA Corporation
+/0/100/1/0.1             multimedia     NVIDIA Corporation
+/0/100/6                 bridge         Intel Corporation
+/0/100/6/0               storage        NVMe SSD Controller SM981/PM981
+/0/100/6/0/0    nvme0    storage        Samsung SSD 970 EVO Plus 1TB
+/0/100/6/0/0/1  nvme0n1  disk           NVMe namespace
+/0/100/a                 generic        Intel Corporation
+/0/100/e                 storage        Intel Corporation
+/0/100/14                bus            Intel Corporation
+/0/100/14.2              memory         RAM memory
+/0/100/14.3              network        Intel Corporation
+/0/100/15                bus            Intel Corporation
+/0/100/15.1              bus            Intel Corporation
+/0/100/15.2              bus            Intel Corporation
+/0/100/16                communication  Intel Corporation
+/0/100/17                storage        Intel Corporation
+/0/100/1a                bridge         Intel Corporation
+/0/100/1b                bridge         Intel Corporation
+/0/100/1c                bridge         Intel Corporation
+/0/100/1c.2              bridge         Intel Corporation
+/0/100/1c.2/0            network        Intel Corporation
+/0/100/1d                bridge         Intel Corporation
+/0/100/1f                bridge         Intel Corporation
+/0/100/1f.3              multimedia     Intel Corporation
+/0/100/1f.4              bus            Intel Corporation
+/0/100/1f.5              bus            Intel Corporation
+/1              eth0     network        Ethernet interface
+
+RAM Information:
+              total        used        free      shared  buff/cache   available
+Mem:           125G         18G         67G        5.2M         39G        105G
+Swap:          2.0G         57M        1.9G
+
+Graphics Card Information:
+01:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 (rev a1)
+
+Ubuntu Version:
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.6 LTS
+Release:	18.04
+Codename:	bionic
+
+Installed Packages:
+alembic==1.12.0
+anyio==3.7.1
+backcall==0.2.0
+brotlipy==0.7.0
+catboost==1.2.2
+category-encoders==2.6.2
+certifi==2021.10.8
+cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+cloudpickle==2.2.1
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+colorlog==6.7.0
+colour==0.1.5
+conda==4.12.0
+conda-content-trust @ file:///tmp/build/80754af9/conda-content-trust_1617045594566/work
+conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1649105789509/work
+cryptography @ file:///tmp/build/80754af9/cryptography_1639414570729/work
+cycler==0.11.0
+decorator==5.1.1
+dtreeviz==2.2.2
+exceptiongroup==1.1.3
+fonttools==4.38.0
+graphviz==0.20.1
+greenlet==3.0.0
+h11==0.14.0
+httpcore==0.17.3
+httpx==0.24.1
+idna @ file:///tmp/build/80754af9/idna_1637925883363/work
+importlib-metadata==6.7.0
+importlib-resources==5.12.0
+iniconfig==2.0.0
+ipython==7.34.0
+jedi==0.19.1
+joblib==1.3.2
+kiwisolver==1.4.5
+lightgbm==4.1.0
+llvmlite==0.39.1
+Mako==1.2.4
+Markdown==3.4.4
+MarkupSafe==2.1.3
+matplotlib==3.5.3
+matplotlib-inline==0.1.6
+mljar-supervised==1.0.2
+numba==0.56.4
+numpy==1.21.6
+optuna==3.4.0
+packaging==23.2
+pandas==1.3.5
+parso==0.8.3
+patsy==0.5.3
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==9.5.0
+plotly==5.17.0
+pluggy==1.2.0
+prompt-toolkit==3.0.39
+ptyprocess==0.7.0
+pycosat==0.6.3
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+Pygments==2.16.1
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+pyparsing==3.1.1
+PySocks @ file:///tmp/build/80754af9/pysocks_1594394576006/work
+pytest==7.4.2
+python-dateutil==2.8.2
+python-telegram-bot==20.3
+pytz==2023.3.post1
+PyYAML==6.0.1
+requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
+ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016701961/work
+scikit-learn==1.0.2
+scikit-plot==0.3.7
+scipy==1.7.3
+seaborn==0.12.2
+shap==0.42.1
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+slicer==0.0.7
+sniffio==1.3.0
+SQLAlchemy==2.0.22
+statsmodels==0.13.5
+tabulate==0.9.0
+tenacity==8.2.3
+threadpoolctl==3.1.0
+tomli==2.0.1
+tqdm @ file:///opt/conda/conda-bld/tqdm_1647339053476/work
+traitlets==5.9.0
+typing_extensions==4.7.1
+urllib3 @ file:///opt/conda/conda-bld/urllib3_1643638302206/work
+wcwidth==0.2.8
+wordcloud==1.9.2
+xgboost==1.6.2
+zipp==3.15.0

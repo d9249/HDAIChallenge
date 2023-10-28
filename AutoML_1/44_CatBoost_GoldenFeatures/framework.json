@@ -1,0 +1,1376 @@
+{
+    "uid": "b7874c06-83df-4f83-85e5-77e37b84d223",
+    "name": "44_CatBoost_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "DIST",
+                        "feature2": "PORT_SIZE",
+                        "operation": "ratio",
+                        "score": 0.9291403102
+                    },
+                    {
+                        "feature1": "AIR_TEMPERATURE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9313459973
+                    },
+                    {
+                        "feature1": "U_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9317807617
+                    },
+                    {
+                        "feature1": "SHIPMANAGER",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9322564461
+                    },
+                    {
+                        "feature1": "PORT_SIZE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9330770183
+                    },
+                    {
+                        "feature1": "ARI_PO",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9331816036
+                    },
+                    {
+                        "feature1": "V_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9344885075
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "LENGTH",
+                        "operation": "ratio",
+                        "score": 0.9367320794
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "SHIPMANAGER",
+                        "operation": "ratio",
+                        "score": 0.9368732002
+                    },
+                    {
+                        "feature1": "ID",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9369308806
+                    }
+                ],
+                "new_columns": [
+                    "DIST_ratio_PORT_SIZE",
+                    "AIR_TEMPERATURE_ratio_DIST",
+                    "U_WIND_ratio_DIST",
+                    "SHIPMANAGER_multiply_DIST",
+                    "PORT_SIZE_ratio_DIST",
+                    "ARI_PO_ratio_DIST",
+                    "V_WIND_ratio_DIST",
+                    "DIST_ratio_LENGTH",
+                    "DIST_ratio_SHIPMANAGER",
+                    "ID_multiply_DIST"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    171.27907720759387
+                ],
+                "mean": [
+                    62.09814334400999
+                ],
+                "var": [
+                    29336.522289084904
+                ],
+                "n_samples_seen": 352745,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_16",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "DIST",
+                        "feature2": "PORT_SIZE",
+                        "operation": "ratio",
+                        "score": 0.9291403102
+                    },
+                    {
+                        "feature1": "AIR_TEMPERATURE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9313459973
+                    },
+                    {
+                        "feature1": "U_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9317807617
+                    },
+                    {
+                        "feature1": "SHIPMANAGER",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9322564461
+                    },
+                    {
+                        "feature1": "PORT_SIZE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9330770183
+                    },
+                    {
+                        "feature1": "ARI_PO",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9331816036
+                    },
+                    {
+                        "feature1": "V_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9344885075
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "LENGTH",
+                        "operation": "ratio",
+                        "score": 0.9367320794
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "SHIPMANAGER",
+                        "operation": "ratio",
+                        "score": 0.9368732002
+                    },
+                    {
+                        "feature1": "ID",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9369308806
+                    }
+                ],
+                "new_columns": [
+                    "DIST_ratio_PORT_SIZE",
+                    "AIR_TEMPERATURE_ratio_DIST",
+                    "U_WIND_ratio_DIST",
+                    "SHIPMANAGER_multiply_DIST",
+                    "PORT_SIZE_ratio_DIST",
+                    "ARI_PO_ratio_DIST",
+                    "V_WIND_ratio_DIST",
+                    "DIST_ratio_LENGTH",
+                    "DIST_ratio_SHIPMANAGER",
+                    "ID_multiply_DIST"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    170.9048066853953
+                ],
+                "mean": [
+                    61.99568631491855
+                ],
+                "var": [
+                    29208.452948172337
+                ],
+                "n_samples_seen": 352745,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_16",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "DIST",
+                        "feature2": "PORT_SIZE",
+                        "operation": "ratio",
+                        "score": 0.9291403102
+                    },
+                    {
+                        "feature1": "AIR_TEMPERATURE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9313459973
+                    },
+                    {
+                        "feature1": "U_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9317807617
+                    },
+                    {
+                        "feature1": "SHIPMANAGER",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9322564461
+                    },
+                    {
+                        "feature1": "PORT_SIZE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9330770183
+                    },
+                    {
+                        "feature1": "ARI_PO",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9331816036
+                    },
+                    {
+                        "feature1": "V_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9344885075
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "LENGTH",
+                        "operation": "ratio",
+                        "score": 0.9367320794
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "SHIPMANAGER",
+                        "operation": "ratio",
+                        "score": 0.9368732002
+                    },
+                    {
+                        "feature1": "ID",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9369308806
+                    }
+                ],
+                "new_columns": [
+                    "DIST_ratio_PORT_SIZE",
+                    "AIR_TEMPERATURE_ratio_DIST",
+                    "U_WIND_ratio_DIST",
+                    "SHIPMANAGER_multiply_DIST",
+                    "PORT_SIZE_ratio_DIST",
+                    "ARI_PO_ratio_DIST",
+                    "V_WIND_ratio_DIST",
+                    "DIST_ratio_LENGTH",
+                    "DIST_ratio_SHIPMANAGER",
+                    "ID_multiply_DIST"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    170.85589657080092
+                ],
+                "mean": [
+                    61.906523205272066
+                ],
+                "var": [
+                    29191.737393012223
+                ],
+                "n_samples_seen": 352745,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_16",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "DIST",
+                        "feature2": "PORT_SIZE",
+                        "operation": "ratio",
+                        "score": 0.9291403102
+                    },
+                    {
+                        "feature1": "AIR_TEMPERATURE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9313459973
+                    },
+                    {
+                        "feature1": "U_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9317807617
+                    },
+                    {
+                        "feature1": "SHIPMANAGER",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9322564461
+                    },
+                    {
+                        "feature1": "PORT_SIZE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9330770183
+                    },
+                    {
+                        "feature1": "ARI_PO",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9331816036
+                    },
+                    {
+                        "feature1": "V_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9344885075
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "LENGTH",
+                        "operation": "ratio",
+                        "score": 0.9367320794
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "SHIPMANAGER",
+                        "operation": "ratio",
+                        "score": 0.9368732002
+                    },
+                    {
+                        "feature1": "ID",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9369308806
+                    }
+                ],
+                "new_columns": [
+                    "DIST_ratio_PORT_SIZE",
+                    "AIR_TEMPERATURE_ratio_DIST",
+                    "U_WIND_ratio_DIST",
+                    "SHIPMANAGER_multiply_DIST",
+                    "PORT_SIZE_ratio_DIST",
+                    "ARI_PO_ratio_DIST",
+                    "V_WIND_ratio_DIST",
+                    "DIST_ratio_LENGTH",
+                    "DIST_ratio_SHIPMANAGER",
+                    "ID_multiply_DIST"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    170.5663872170725
+                ],
+                "mean": [
+                    61.83419108540216
+                ],
+                "var": [
+                    29092.89244828431
+                ],
+                "n_samples_seen": 352745,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_16",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "DIST",
+                        "feature2": "PORT_SIZE",
+                        "operation": "ratio",
+                        "score": 0.9291403102
+                    },
+                    {
+                        "feature1": "AIR_TEMPERATURE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9313459973
+                    },
+                    {
+                        "feature1": "U_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9317807617
+                    },
+                    {
+                        "feature1": "SHIPMANAGER",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9322564461
+                    },
+                    {
+                        "feature1": "PORT_SIZE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9330770183
+                    },
+                    {
+                        "feature1": "ARI_PO",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9331816036
+                    },
+                    {
+                        "feature1": "V_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9344885075
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "LENGTH",
+                        "operation": "ratio",
+                        "score": 0.9367320794
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "SHIPMANAGER",
+                        "operation": "ratio",
+                        "score": 0.9368732002
+                    },
+                    {
+                        "feature1": "ID",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9369308806
+                    }
+                ],
+                "new_columns": [
+                    "DIST_ratio_PORT_SIZE",
+                    "AIR_TEMPERATURE_ratio_DIST",
+                    "U_WIND_ratio_DIST",
+                    "SHIPMANAGER_multiply_DIST",
+                    "PORT_SIZE_ratio_DIST",
+                    "ARI_PO_ratio_DIST",
+                    "V_WIND_ratio_DIST",
+                    "DIST_ratio_LENGTH",
+                    "DIST_ratio_SHIPMANAGER",
+                    "ID_multiply_DIST"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    170.400599691492
+                ],
+                "mean": [
+                    61.769999203841
+                ],
+                "var": [
+                    29036.36437522011
+                ],
+                "n_samples_seen": 352745,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_16",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "DIST",
+                        "feature2": "PORT_SIZE",
+                        "operation": "ratio",
+                        "score": 0.9291403102
+                    },
+                    {
+                        "feature1": "AIR_TEMPERATURE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9313459973
+                    },
+                    {
+                        "feature1": "U_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9317807617
+                    },
+                    {
+                        "feature1": "SHIPMANAGER",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9322564461
+                    },
+                    {
+                        "feature1": "PORT_SIZE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9330770183
+                    },
+                    {
+                        "feature1": "ARI_PO",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9331816036
+                    },
+                    {
+                        "feature1": "V_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9344885075
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "LENGTH",
+                        "operation": "ratio",
+                        "score": 0.9367320794
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "SHIPMANAGER",
+                        "operation": "ratio",
+                        "score": 0.9368732002
+                    },
+                    {
+                        "feature1": "ID",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9369308806
+                    }
+                ],
+                "new_columns": [
+                    "DIST_ratio_PORT_SIZE",
+                    "AIR_TEMPERATURE_ratio_DIST",
+                    "U_WIND_ratio_DIST",
+                    "SHIPMANAGER_multiply_DIST",
+                    "PORT_SIZE_ratio_DIST",
+                    "ARI_PO_ratio_DIST",
+                    "V_WIND_ratio_DIST",
+                    "DIST_ratio_LENGTH",
+                    "DIST_ratio_SHIPMANAGER",
+                    "ID_multiply_DIST"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    170.62501577456538
+                ],
+                "mean": [
+                    61.85969625204712
+                ],
+                "var": [
+                    29112.896008070686
+                ],
+                "n_samples_seen": 352745,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_16",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "DIST",
+                        "feature2": "PORT_SIZE",
+                        "operation": "ratio",
+                        "score": 0.9291403102
+                    },
+                    {
+                        "feature1": "AIR_TEMPERATURE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9313459973
+                    },
+                    {
+                        "feature1": "U_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9317807617
+                    },
+                    {
+                        "feature1": "SHIPMANAGER",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9322564461
+                    },
+                    {
+                        "feature1": "PORT_SIZE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9330770183
+                    },
+                    {
+                        "feature1": "ARI_PO",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9331816036
+                    },
+                    {
+                        "feature1": "V_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9344885075
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "LENGTH",
+                        "operation": "ratio",
+                        "score": 0.9367320794
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "SHIPMANAGER",
+                        "operation": "ratio",
+                        "score": 0.9368732002
+                    },
+                    {
+                        "feature1": "ID",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9369308806
+                    }
+                ],
+                "new_columns": [
+                    "DIST_ratio_PORT_SIZE",
+                    "AIR_TEMPERATURE_ratio_DIST",
+                    "U_WIND_ratio_DIST",
+                    "SHIPMANAGER_multiply_DIST",
+                    "PORT_SIZE_ratio_DIST",
+                    "ARI_PO_ratio_DIST",
+                    "V_WIND_ratio_DIST",
+                    "DIST_ratio_LENGTH",
+                    "DIST_ratio_SHIPMANAGER",
+                    "ID_multiply_DIST"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    171.1023458437324
+                ],
+                "mean": [
+                    62.00549251181623
+                ],
+                "var": [
+                    29276.012753228206
+                ],
+                "n_samples_seen": 352745,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_16",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "DIST",
+                        "feature2": "PORT_SIZE",
+                        "operation": "ratio",
+                        "score": 0.9291403102
+                    },
+                    {
+                        "feature1": "AIR_TEMPERATURE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9313459973
+                    },
+                    {
+                        "feature1": "U_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9317807617
+                    },
+                    {
+                        "feature1": "SHIPMANAGER",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9322564461
+                    },
+                    {
+                        "feature1": "PORT_SIZE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9330770183
+                    },
+                    {
+                        "feature1": "ARI_PO",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9331816036
+                    },
+                    {
+                        "feature1": "V_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9344885075
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "LENGTH",
+                        "operation": "ratio",
+                        "score": 0.9367320794
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "SHIPMANAGER",
+                        "operation": "ratio",
+                        "score": 0.9368732002
+                    },
+                    {
+                        "feature1": "ID",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9369308806
+                    }
+                ],
+                "new_columns": [
+                    "DIST_ratio_PORT_SIZE",
+                    "AIR_TEMPERATURE_ratio_DIST",
+                    "U_WIND_ratio_DIST",
+                    "SHIPMANAGER_multiply_DIST",
+                    "PORT_SIZE_ratio_DIST",
+                    "ARI_PO_ratio_DIST",
+                    "V_WIND_ratio_DIST",
+                    "DIST_ratio_LENGTH",
+                    "DIST_ratio_SHIPMANAGER",
+                    "ID_multiply_DIST"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    170.9026705904257
+                ],
+                "mean": [
+                    61.97379235392186
+                ],
+                "var": [
+                    29207.722814939567
+                ],
+                "n_samples_seen": 352745,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_16",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "DIST",
+                        "feature2": "PORT_SIZE",
+                        "operation": "ratio",
+                        "score": 0.9291403102
+                    },
+                    {
+                        "feature1": "AIR_TEMPERATURE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9313459973
+                    },
+                    {
+                        "feature1": "U_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9317807617
+                    },
+                    {
+                        "feature1": "SHIPMANAGER",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9322564461
+                    },
+                    {
+                        "feature1": "PORT_SIZE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9330770183
+                    },
+                    {
+                        "feature1": "ARI_PO",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9331816036
+                    },
+                    {
+                        "feature1": "V_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9344885075
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "LENGTH",
+                        "operation": "ratio",
+                        "score": 0.9367320794
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "SHIPMANAGER",
+                        "operation": "ratio",
+                        "score": 0.9368732002
+                    },
+                    {
+                        "feature1": "ID",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9369308806
+                    }
+                ],
+                "new_columns": [
+                    "DIST_ratio_PORT_SIZE",
+                    "AIR_TEMPERATURE_ratio_DIST",
+                    "U_WIND_ratio_DIST",
+                    "SHIPMANAGER_multiply_DIST",
+                    "PORT_SIZE_ratio_DIST",
+                    "ARI_PO_ratio_DIST",
+                    "V_WIND_ratio_DIST",
+                    "DIST_ratio_LENGTH",
+                    "DIST_ratio_SHIPMANAGER",
+                    "ID_multiply_DIST"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    170.8951149593121
+                ],
+                "mean": [
+                    62.03929477853114
+                ],
+                "var": [
+                    29205.140316956506
+                ],
+                "n_samples_seen": 352745,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_16",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "DIST",
+                        "feature2": "PORT_SIZE",
+                        "operation": "ratio",
+                        "score": 0.9291403102
+                    },
+                    {
+                        "feature1": "AIR_TEMPERATURE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9313459973
+                    },
+                    {
+                        "feature1": "U_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9317807617
+                    },
+                    {
+                        "feature1": "SHIPMANAGER",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9322564461
+                    },
+                    {
+                        "feature1": "PORT_SIZE",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9330770183
+                    },
+                    {
+                        "feature1": "ARI_PO",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9331816036
+                    },
+                    {
+                        "feature1": "V_WIND",
+                        "feature2": "DIST",
+                        "operation": "ratio",
+                        "score": 0.9344885075
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "LENGTH",
+                        "operation": "ratio",
+                        "score": 0.9367320794
+                    },
+                    {
+                        "feature1": "DIST",
+                        "feature2": "SHIPMANAGER",
+                        "operation": "ratio",
+                        "score": 0.9368732002
+                    },
+                    {
+                        "feature1": "ID",
+                        "feature2": "DIST",
+                        "operation": "multiply",
+                        "score": 0.9369308806
+                    }
+                ],
+                "new_columns": [
+                    "DIST_ratio_PORT_SIZE",
+                    "AIR_TEMPERATURE_ratio_DIST",
+                    "U_WIND_ratio_DIST",
+                    "SHIPMANAGER_multiply_DIST",
+                    "PORT_SIZE_ratio_DIST",
+                    "ARI_PO_ratio_DIST",
+                    "V_WIND_ratio_DIST",
+                    "DIST_ratio_LENGTH",
+                    "DIST_ratio_SHIPMANAGER",
+                    "ID_multiply_DIST"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    170.5592947106472
+                ],
+                "mean": [
+                    61.92552692066284
+                ],
+                "var": [
+                    29090.473012193408
+                ],
+                "n_samples_seen": 352746,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_16",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "c5ac2de4-ff0e-40e4-b138-6aa2481bd074",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 50,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "RMSE",
+                "eval_metric": "MAE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 3276
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "14c87299-dc27-42ae-b2ff-56449398af06",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 50,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "RMSE",
+                "eval_metric": "MAE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 3656
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "00e8ec98-484d-4a8f-9010-ac25df62c2d4",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 50,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "RMSE",
+                "eval_metric": "MAE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 2925
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "a88063af-3790-4632-832f-5b198ab2ef75",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 50,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "RMSE",
+                "eval_metric": "MAE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 5252
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "2de82bb8-a8e3-4eb3-ae17-cf7f887ffaf7",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 50,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "RMSE",
+                "eval_metric": "MAE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 2749
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "e60ee469-922a-43e9-bab6-88321a5b36ac",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 50,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "RMSE",
+                "eval_metric": "MAE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_5",
+            "best_ntree_limit": 5582
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "1fa00fde-f46c-4140-b275-a6d7435f22f6",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 50,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "RMSE",
+                "eval_metric": "MAE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_6",
+            "best_ntree_limit": 2615
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "f4782bf6-9a22-4a78-ba33-ac21396ec1ed",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 50,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "RMSE",
+                "eval_metric": "MAE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_7",
+            "best_ntree_limit": 4013
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "6c69b8ae-36b5-482d-aa9b-09e1275fdc96",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 50,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "RMSE",
+                "eval_metric": "MAE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_8",
+            "best_ntree_limit": 5138
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "c0a9415b-e350-4493-b6c4-53a0358ae46e",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 50,
+                "learning_rate": 0.1,
+                "depth": 8,
+                "rsm": 0.9,
+                "loss_function": "RMSE",
+                "eval_metric": "MAE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_9",
+            "best_ntree_limit": 4856
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression",
+            "golden_features": {
+                "results_path": "AutoML_16",
+                "ml_task": "regression",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 10,
+            "shuffle": true,
+            "X_path": "AutoML_16/X.data",
+            "y_path": "AutoML_16/y.data",
+            "results_path": "AutoML_16"
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 50,
+            "learning_rate": 0.1,
+            "depth": 8,
+            "rsm": 0.9,
+            "loss_function": "RMSE",
+            "eval_metric": "MAE",
+            "explain_level": 0
+        },
+        "automl_random_state": 42,
+        "ml_task": "regression",
+        "explain_level": 0,
+        "name": "44_CatBoost_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 3600
+    },
+    "saved": [
+        "44_CatBoost_GoldenFeatures/learner_fold_0.catboost",
+        "44_CatBoost_GoldenFeatures/learner_fold_1.catboost",
+        "44_CatBoost_GoldenFeatures/learner_fold_2.catboost",
+        "44_CatBoost_GoldenFeatures/learner_fold_3.catboost",
+        "44_CatBoost_GoldenFeatures/learner_fold_4.catboost",
+        "44_CatBoost_GoldenFeatures/learner_fold_5.catboost",
+        "44_CatBoost_GoldenFeatures/learner_fold_6.catboost",
+        "44_CatBoost_GoldenFeatures/learner_fold_7.catboost",
+        "44_CatBoost_GoldenFeatures/learner_fold_8.catboost",
+        "44_CatBoost_GoldenFeatures/learner_fold_9.catboost"
+    ],
+    "predictions_fname": "44_CatBoost_GoldenFeatures/predictions_out_of_folds.csv",
+    "metric_name": "mae",
+    "final_loss": "40.55037111172789",
+    "train_time": 1296.6697459220886,
+    "is_stacked": false,
+    "joblib_version": "1.3.2"
+}
