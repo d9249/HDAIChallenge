@@ -51,16 +51,6 @@ def get_season(month):
     else:
         return 1
 
-def get_time_of_day(hour):
-    if 5 <= hour < 12:
-        return 1
-    elif 12 <= hour < 17:
-        return 2
-    elif 17 <= hour < 21:
-        return 3
-    else:
-        return 4
-
 train['WIND_INTENSITY'] = np.sqrt(train['U_WIND']**2 + train['V_WIND']**2)
 test['WIND_INTENSITY'] = np.sqrt(test['U_WIND']**2 + test['V_WIND']**2)
 train['U_WIND_SQUARE'] = train['U_WIND'] ** 2
