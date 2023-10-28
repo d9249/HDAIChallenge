@@ -1,4 +1,4 @@
-# nohup python -u train.py &
+# nohup python -u train_preliminary.py &
 # tail -f nohup.out
 
 import pandas as pd
