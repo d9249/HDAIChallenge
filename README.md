@@ -1,35 +1,30 @@
-# HD 현대 AI Challenge
+# [HD 현대 AI Challenge](https://dacon.io/competitions/official/236158/overview/description>)
 
-학습 코드는 `train_preliminary.py`이며, 
+> 학습 코드는 `train_preliminary.py`이며, train weight & train model는 `AutoML_1`에 저장되어있으며, 학습 과정에 대한 결과와 리포트 또한 작성되어 있습니다. 또한 `prediction_preliminary.py`을 실행하면 예측 복원이 가능합니다.
+> 
+> 학습 환경은 Docker를 통해 보관해두었기에, [Docker hub 링크](https://hub.docker.com/repository/docker/dodo9249/hdaichallenge/general)를 따라 pull하면, 제가 학습한 환경을 바로 사용할 수 있습니다.
 
-train weight & train model는 `AutoML_1`에 저장되어있으며, 학습 과정에 대한 결과와 리포트 또한 작성되어 있습니다.
+## 예선 결과
 
-`prediction_preliminary.py`을 실행하면 예측 복원이 가능합니다.
 
-[대회 링크](https://dacon.io/competitions/official/236158/overview/description)
-
-[Docker hub 링크](https://hub.docker.com/repository/docker/dodo9249/hdaichallenge/general)
-
-[예선 결과 링크](https://dacon.io/competitions/official/236158/leaderboard)
 
 ## 실험 환경
 
 > environment_info.txt
 
 ```
-Operating System: Linux-5.15.0-83-generic-x86_64-with-debian-buster-sid
-
-Python Version: 3.7.13
-
 CPU: 12th Gen Intel(R) Core(TM) i9-12900K
 
 RAM: SAMSUNG DDR4 128GB
 
+Operating System: Linux-5.15.0-83-generic-x86_64-with-debian-buster-sid
 Ubuntu Version:
 Distributor ID: Ubuntu
 Description: Ubuntu 18.04.6 LTS
 Release: 18.04
 Codename: bionic
+
+Python Version: 3.7.13
 ```
 
 ## 설치된 패키지
