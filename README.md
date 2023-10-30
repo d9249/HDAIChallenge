@@ -6,7 +6,7 @@
 
 ## 예선 결과
 
-[image](https://github.com/d9249/HDAIChallenge/blob/main/leaderboard(preliminary)/private.JPG)
+![image](https://github.com/d9249/HDAIChallenge/blob/main/leaderboard(preliminary)/private.JPG)
 
 ## 실험 환경
 
