@@ -14,7 +14,7 @@
 
 ## 본선 결과
 
-![image](./leaderboard(final)/final_result.JPG)
+![image](./leaderboard(final)/final_leardboard.JPG)
 
 ## 실험 환경
 
