@@ -1,12 +1,20 @@
 # [HD 현대 AI Challenge](https://dacon.io/competitions/official/236158/overview/description>)
 
-> 학습 코드는 `train_preliminary.py`이며, train weight & train model는 `AutoML_1`에 저장되어있으며, 학습 과정에 대한 결과와 리포트 또한 작성되어 있습니다. 또한 `prediction_preliminary.py`을 실행하면 예측 복원이 가능합니다.
+> 예선 학습 코드는 `train_preliminary.py`이며, 예선에서 학습된 `weight`와 `model`은 `AutoML_1`에 저장되어있으며, 학습 과정에 대한 결과와 리포트 또한 작성되어 있습니다. 또한 `prediction_preliminary.py`을 실행하면 예선 결과(score: 31.81379)에 대한 예측 복원이 가능합니다.
 > 
-> 학습 환경은 Docker를 통해 보관해두었기에, [Docker hub 링크](https://hub.docker.com/repository/docker/dodo9249/hdaichallenge/general)를 따라 pull하면, 제가 학습한 환경을 바로 사용할 수 있습니다.
+> 본선 학습 코드는 `train_final.ipynb`이며, 본선에서 학습된 `weight`는 `weight(final)`폴더에 저장되어있으며, 학습 과정을 포함하고 있습니다. 또한 실험 재현을 위해서 `prediction_reproducibility_final.ipynb`을 작성해두었으며, 해당 코드를 통해 본선 예측 결과(score: 98.21432)의 복원이 가능합니다.
+> 
+> 학습 환경은 Docker를 통해 보관해두었기에, [Docker hub 링크](https://hub.docker.com/repository/docker/dodo9249/hdaichallenge/general)를 따라 pull하면, 제가 학습한 환경을 바로 사용할 수 있습니니다. 예선(version:1.0)과 본선(version:2.0) 동일한 환경에서 실험을 수행하였습니다.
 
 ## 예선 결과
 
 ![image](https://github.com/d9249/HDAIChallenge/blob/main/leaderboard(preliminary)/private.JPG)
+
+![image](./leaderboard(final)/final.JPG)
+
+## 본선 결과
+
+![image](./leaderboard(final)/final_result.JPG)
 
 ## 실험 환경
 
@@ -16,6 +24,8 @@
 CPU: 12th Gen Intel(R) Core(TM) i9-12900K
 
 RAM: SAMSUNG DDR4 128GB
+
+GPU: Nvidia RTX3090 24GB
 
 Operating System: Linux-5.15.0-83-generic-x86_64-with-debian-buster-sid
 Ubuntu Version:
