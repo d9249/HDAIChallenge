@@ -1,5 +1,7 @@
 # [HD 현대 AI Challenge](https://dacon.io/competitions/official/236158/overview/description>)
 
+![image](https://github.com/d9249/HDAIChallenge/blob/main/image/HD.png)
+
 최근 건설 현장 운용 효율화를 위하여 건설 현장의 디지털화와 건설 장비 Fleet Management 솔루션의 필요성이 대두되고 있습니다. 
 
 장비 운용의 효율성은 해당 작업에 최적화된 장비 조합을 찾는 것에서 시작합니다. 최적화된 장비 조합을 찾기 위해서는 장비의 작업량을 정확하게 예측하고, 이 결과가 실시간으로 모니터링 되어야 합니다.이에 건설 장비로부터 취득된 데이터를 이용하여, 작업 중량을 예측하는 AI 알고리즘 개발을 제안합니다.
